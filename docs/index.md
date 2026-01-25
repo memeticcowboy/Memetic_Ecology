@@ -1,6 +1,6 @@
 ---
 layout: docs
-title: "World-STates"
+title: "World-States"
 description: "Comprehensive guide to how coordiation bheaves across the entire habitat stack"
 ---
 
