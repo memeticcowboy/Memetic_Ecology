@@ -12,3 +12,15 @@
 @import 'utilities';
 @import 'themes/light';
 @import 'themes/dark';
+
+// Fix homepage padding
+body {
+  padding: 0 2rem;
+}
+
+.main-content,
+main {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 2rem;
+}
