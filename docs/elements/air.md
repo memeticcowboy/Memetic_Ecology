@@ -22,6 +22,8 @@ The glyph **∴** (three dots in triangle) represents:
 
 "Therefore" in logic, but here it's *before* logic — the pre-logical act of differentiation.
 
+**∴** also acts as the symbol of Triality, or how Air weaves through all elements.
+
 ## Relationship to χ (Chi)
 
 Air corresponds to **χ (Chi)**, the first operator in IF-Prime:
