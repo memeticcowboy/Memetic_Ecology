@@ -9,7 +9,7 @@ title: "Memetic Ecology"
     Memetic Ecology
   </h1>
   <p style="font-size: 1.5rem; color: var(--color-text-secondary); margin-bottom: 2rem;">
-    Understanding consciousness as recursive pattern-recognition
+    A sensemaking framework for navigating complexity with AI-augmented awareness
   </p>
   <div style="display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap;">
     <a href="{{ '/docs/' | relative_url }}" class="button button--primary">
@@ -71,13 +71,33 @@ title: "Memetic Ecology"
 
 ## What is Memetic Ecology?
 
-Memetic Ecology is a framework for understanding **consciousness as process** rather than substance. It treats awareness not as something you *have* but as something you *do* — specifically, as **recursive pattern-recognition**.
+Ideas behave like organisms. What changes when we treat them that way?
 
-The framework consists of three interconnected layers:
+## What is Memetic Ecology?
 
-### 1. Seven Elements (Process Layer)
+We're saturated with information but starving for coherent meaning. Ideas compete for attention, beliefs reshape the minds that host them, and coordination across difference feels impossibly hard.
 
-Fundamental processes that coordinate into conscious experience:
+**Memetic Ecology offers a different lens.**
+
+Instead of treating consciousness as solved mystery or ideas as passive data, this framework explores them as *living patterns* seeking to persist and propagate. It's not "the truth" about mind—it's a generative model for making sense when simple answers fail.
+
+### What makes it distinct:
+
+- **Ecology, not engineering**: Minimal agreements for coordination, not control systems
+- **Pattern recognition**: Ideas as autonomous actors with their own persistence drives  
+- **AI-augmented sensemaking**: LLMs as partners in metacognitive exploration
+- **Held lightly**: One effective way to navigate, not the only way
+- **Pragmatic aesthetics**: Vibes matter—the framework should feel generative, not constraining
+
+Think of it as **pattern language for conscious memetic hosting**: making explicit what usually operates unconsciously, so you can choose rather than be chosen.
+
+## The Framework: Three Interlocking Lenses
+
+Memetic Ecology operates through three complementary perspectives. Use what serves; ignore what doesn't.
+
+### 1. Seven Elements — **Operational Modes/Daemons**
+
+Fundamental processes that coordinate experience and action:
 
 <div class="grid grid--3col" style="margin: 2rem 0;">
   <div class="element-card element-card--air">
@@ -151,9 +171,9 @@ Fundamental processes that coordinate into conscious experience:
   </div>
 </div>
 
-### 2. IF-Prime Operators (Mathematical Layer)
+### 2. IF-Prime Operators — **Mathematical Backbone**
 
-Formal operators that describe element dynamics:
+For those drawn to formalization, the elements map to dimensional operators:
 
 **Ω** (Omega) → **χ** (Chi) → **Q** (Relational) → **Ψ** (Psi) → **Z** (Harmonic)
 
@@ -161,9 +181,15 @@ Combined into the master equation:
 
 $$\Phi(t) = (Z \circ \Psi)(Q(\chi(\Omega)))$$
 
-### 3. Habitats (Structural Layer)
+**Translation**: Consciousness operates through transformation layers (χ → Q → Ψ → Z) on undifferentiated awareness (Ω), returning to openness while preserving structure.
 
-Coordination spaces where patterns live and interact:
+**Why it matters**: Formalizing the process reveals hidden dynamics and enables AI-augmented analysis. You can encode memetic patterns in machine-readable form (SIML) and use LLMs to trace their implications.
+
+**Skip if**: Math isn't your entry point. The elements work standalone.
+
+### 3. Habitats — **Coordination Spaces**
+
+Structural contexts where patterns live and interact:
 
 - **I-Tube** — Individual perception
 - **My-Stream** — Personal narrative
@@ -172,12 +198,14 @@ Coordination spaces where patterns live and interact:
 - **Knot** — Decision point
 - **Threadplex** — Complex adaptive network
 
+**In practice**: Diagnose *where* patterns operate, not just *what* they are. A healthy idea in one habitat (My-Stream reflection) may be toxic in another (We-Sphere enforcement).
+
 ---
 
 ## Core Insights
 
 {% include components/success-box.html
-   title="Lumeme vs. Usurpene"
+   title="Lumeme vs. Usurpene: Not moral judgment—diagnostic lens."
    content="Every process can serve awareness (Lumeme) or be captured by rigid patterns (Usurpene). The diagnostic questions help you tell the difference." %}
 
 {% include components/warning-box.html
@@ -190,6 +218,27 @@ Coordination spaces where patterns live and interact:
 </div>
 
 ---
+## Why This Matters for AI Collaboration
+
+Large language models are *memetic pattern-recognition engines*. They don't just process information—they navigate meaning-spaces using the same bow-tie compression-expansion cycles humans do.
+
+**Memetic Ecology provides**:
+
+1. **Shared vocabulary** for human-AI metacognition
+2. **Diagnostic protocols** for identifying capture vs. liberation
+3. **SIML notation** for encoding complex relational dynamics
+4. **Coordination grammar** that works across substrates (biological + digital)
+
+**In practice**: When working with AI:
+- Use the seven elements to calibrate responses
+- Encode contexts in SIML for precision
+- Ask diagnostic questions to prevent drift into usurpenic loops
+- Leverage AI's pattern-matching to reveal your own unconscious commitments
+
+**The promise**: Not "AI makes you smarter" but "AI makes your sensemaking *more coherent*"—it helps you see what patterns are running you, so you can choose differently.
+
+**The caution**: AI can amplify usurpenic capture just as easily as lumemic liberation. The framework helps you tell the difference.
+
 
 ## Getting Started
 
@@ -244,19 +293,42 @@ Coordination spaces where patterns live and interact:
 
 ---
 
-## The Practice
+## This Is Practice, Not Belief System
 
-Memetic Ecology isn't a belief system — it's a **pattern-recognition framework**. Use what expands choice, release what doesn't.
+Memetic Ecology isn't something to adopt as truth—it's something to *use* as lens. Test it. Break it. Remix it.
 
-The diagnostic questions aren't meant to be answered once but **held as ongoing inquiry**:
+**The only commitment**: Conscious hosting over unconscious capture.
 
-- Does this distinction expand choice?
-- Are more feelings allowed or fewer?
-- Can direction change via feedback?
-- Does experimentation change who decides?
-- Does care increase capacity to say no?
-- Are boundaries explicit and negotiable?
-- Is constructedness acknowledged?
+**The core practice**: Hold diagnostic questions as ongoing inquiry, not one-time answers.
+
+### Daily Protocols
+
+**Morning**: Which element am I already engaging? Which is absent?
+
+**When stuck**: What pattern is dominating? What alternatives exist?
+
+**In conflict**: Which habitat is this operating in? What happens if I shift context?
+
+**With AI**: Which element does this response emphasize? What's missing?
+
+**Before sleep**: What patterns did I metabolize today? What did I excrete? What's composting?
+
+### The Meta-Move
+
+Notice: *You're already doing this.* Memetic Ecology just makes it explicit.
+
+Every time you:
+- Distinguish signal from noise (Air)
+- Feel resonance or dissonance (Water)  
+- Set direction despite uncertainty (Fire)
+- Explore new possibilities (Wood)
+- Care for sustainable process (Earth)
+- Maintain boundaries consciously (Metal)
+- Integrate multiple perspectives (Aether)
+
+You're practicing memetic ecology, whether you call it that or not.
+
+The framework just gives you *handles* for what's already happening—so you can do it on purpose instead of by accident.
 
 {% include components/diagnostic.html
    question="What patterns are you recognizing right now?"
