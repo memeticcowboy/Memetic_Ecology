@@ -1,4 +1,4 @@
-# READ FIRST — For Humans and Assistants
+# READ FIRST — For Humans and AI Assistants
 
 This corpus defines a **diagnostic ecology of meaning, coordination, and revisability**.
 
