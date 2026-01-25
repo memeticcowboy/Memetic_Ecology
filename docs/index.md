@@ -1,108 +1,69 @@
 ---
 layout: docs
-title: "Documentation"
-description: "Comprehensive guide to the Memetic Ecology framework"
+title: "World-STates"
+description: "Comprehensive guide to how coordiation bheaves across the entire habitat stack"
 ---
 
-# Memetic Ecology Documentation
+# World-States — Z-Behavior Regimes
 
-Welcome to the comprehensive documentation for Memetic Ecology — a framework for understanding consciousness as recursive pattern-recognition.
+They are not goals.
+They are not ideals.
+They are not destinations.
 
-## What is Memetic Ecology?
+They are descriptive topologies.
 
-Memetic Ecology treats consciousness not as substance but as **process** — specifically, as the recursive recognition of patterns. Just as ecological systems maintain themselves through dynamic balance rather than static structure, conscious experience emerges from the interplay of seven elemental processes.
+---
 
-## Core Framework
+## 🜛 Co-SPHERE — Ω-Permeable Coordination
 
-The framework consists of three interconnected layers:
+(Z ∘ Ψ ∘ Q ∘ χ)(Ω) ⊕ Ω
 
-### 1. Elements (Process Layer)
+- Soft global minimum
+- Coordination without closure
+- Norms remain revisable
+- Belonging remains optional
+- Worlds know they are worlds
 
-Seven fundamental processes that coordinate into conscious experience:
+---
 
-<div class="grid grid--3col">
-{% for element in site.data.elements %}
-  {% include components/element-card.html element=element %}
-{% endfor %}
-</div>
+## ▩ MemeGrid — Ω-Excluded Coordination
 
-### 2. Operators (Mathematical Layer)
+(Z ∘ Ψ ∘ Q ∘ χ)(Ω) with Ω excluded
 
-IF-Prime operators that formalize element dynamics:
+- Hard global minimum
+- Mandatory descent
+- Control lattice
+- Escalating exit costs
+- Repetition replaces sense-making
 
-- **Ω (Omega)** — Undifferentiated awareness
-- **χ (Chi)** — Distinction-making
-- **Q** — Relational depth (inward/forward)
-- **Ψ (Psi)** — Creative transformation (exploratory/regenerative/structural)
-- **Z** — Harmonic integration
+---
 
-### 3. Habitats (Structural Layer)
+## The Core Bifurcation
 
-Coordination spaces where patterns live:
+There is exactly one system-level question:
 
-- **I-Tube** — Individual perception
-- **My-Stream** — Personal narrative
-- **We-Sphere** — Collective coordination
-- **Thread** — Coherent meaning-line
-- **Knot** — Decision point
-- **Threadplex** — Complex adaptive network
+> **Does Z remain Ω-permeable?**
 
-## Key Equations
+- Yes → Co-SPHERE remains possible
+- No → MemeGrid pressure propagates everywhere
 
-### The Master Equation
+---
 
-$$\Phi(t) = (Z \circ \Psi)(Q(\chi(\Omega)))$$
+## One-Line Diagnostic Lock
 
-Consciousness (Φ) emerges as the harmonic collapse (Z) of transformative operations (Ψ) on relational distinctions (Q) made from undifferentiated awareness (Ω).
+If Ω can still re-enter anywhere in the stack, a Co-SPHERE remains possible.  
+If Z seals Ω anywhere, MemeGrid pressure propagates everywhere.
 
-### Flow Equation
+---
 
-$$\text{Flows} = \text{Difference} \times \text{Harmony}$$
+## Final Invariant
 
-Productive change requires both differentiation and integration.
+World-states are descriptions, not prescriptions.
 
-## World States
+They never justify intervention.
+They never authorize control.
+They only reveal topology.
 
-The framework distinguishes three fundamental world configurations:
-
-{% include components/success-box.html
-   title="Co-SPHERE (Permeable)"
-   content="Boundaries are explicit and negotiable. Refusal capacity is maintained. Questions are welcomed." %}
-
-{% include components/warning-box.html
-   title="MemeGrid (Sealed)"
-   content="Alternatives are foreclosed. Ideology masquerades as ground. Questioning is pathologized." %}
-
-<div class="callout callout--info">
-  <p class="callout__title">ThreadWeave (Active)</p>
-  <p class="callout__content">Constructedness is acknowledged. Multiple narratives coexist. Weaving is visible as weaving.</p>
-</div>
-
-## Getting Started
-
-1. **[Quick Start Guide](/docs/quick-start/)** — Fast orientation to core concepts
-2. **[Elements Overview](/docs/elements/)** — Deep dive into the seven processes
-3. **[SIML Language](/docs/siml/)** — Learn the notation system
-4. **[Reference](/docs/reference/glossary/)** — Comprehensive glossary and equations
-
-## Diagnostic Orientation
-
-Each concept includes a diagnostic question to help you apply it:
-
-{% include components/diagnostic.html
-   question="What patterns am I recognizing right now?"
-   context="Meta-awareness check" %}
-
-These questions aren't meant to be answered once but held as ongoing inquiry.
-
-## Navigation
-
-Use the sidebar to explore specific topics, or start with:
-
-- Understanding [Air (Distinction)](/docs/elements/air/) as your perceptual interface
-- Learning how [Operators](/docs/operators/) formalize element dynamics
-- Exploring [Habitats](/docs/habitats/) as coordination structures
-- Reading about [World States](/docs/habitats/world-states/) to recognize sealed vs. permeable configurations
 
 ---
 
