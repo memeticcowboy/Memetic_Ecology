@@ -1,0 +1,14 @@
+{% comment %}
+Definition Box Component
+Usage: {% include components/definition-box.html term="Air" glyph="∴" type="element" content="Description" %}
+{% endcomment %}
+
+<div class="definition-box definition-box--{{ include.type | default: 'element' }}">
+  <div class="definition-box__header">
+    {% if include.glyph %}
+    <span class="definition-box__glyph">{{ include.glyph }}</span>
+    {% endif %}
+    <h3 class="definition-box__term">{{ include.term }}</h3>
+  </div>
+  <p class="definition-box__content">{{ include.content }}</p>
+</div>

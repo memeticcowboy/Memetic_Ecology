@@ -1,0 +1,131 @@
+// ============================================
+// FONTS
+// ============================================
+$font-family-base: 'Noto Sans', 'Segoe UI', system-ui, -apple-system, sans-serif;
+$font-family-heading: 'Noto Sans', 'Segoe UI', system-ui, sans-serif;
+$font-family-mono: 'JetBrains Mono', 'Fira Code', 'Consolas', monospace;
+$font-family-math: 'Noto Sans Math', 'STIX Two Math', serif;
+
+$font-size-base: 1rem;
+$font-size-sm: 0.875rem;
+$font-size-lg: 1.125rem;
+$font-size-xl: 1.25rem;
+$font-size-2xl: 1.5rem;
+$font-size-3xl: 2rem;
+$font-size-4xl: 2.5rem;
+
+$line-height-base: 1.6;
+$line-height-heading: 1.3;
+
+// ============================================
+// SPACING
+// ============================================
+$spacing-unit: 1rem;
+$spacing-xs: $spacing-unit * 0.25;
+$spacing-sm: $spacing-unit * 0.5;
+$spacing-md: $spacing-unit;
+$spacing-lg: $spacing-unit * 1.5;
+$spacing-xl: $spacing-unit * 2;
+$spacing-2xl: $spacing-unit * 3;
+$spacing-3xl: $spacing-unit * 4;
+
+// ============================================
+// LAYOUT
+// ============================================
+$content-max-width: 900px;
+$sidebar-width: 280px;
+$header-height: 64px;
+$page-header-height: 200px;
+
+$border-radius-sm: 4px;
+$border-radius-md: 8px;
+$border-radius-lg: 12px;
+
+// ============================================
+// ELEMENT COLORS
+// ============================================
+$color-air: #6B9BD2;      // Sky blue - distinction
+$color-water: #4ECDC4;    // Teal - flow
+$color-fire: #FF6B6B;     // Coral red - direction
+$color-wood: #95D5B2;     // Sage green - growth
+$color-earth: #DDA15E;    // Warm ochre - ground
+$color-metal: #9CA3AF;    // Steel gray - structure
+$color-aether: #9B5DE5;   // Violet - integration
+
+// ============================================
+// OPERATOR COLORS
+// ============================================
+$color-omega: #1A1A2E;    // Deep void
+$color-chi: #4A4E69;      // Slate
+$color-q: #22577A;        // Deep teal
+$color-psi: #38A3A5;      // Aqua
+$color-z: #57CC99;        // Mint
+
+// ============================================
+// HABITAT COLORS
+// ============================================
+$color-itube: #F2E9E4;
+$color-mystream: #C9ADA7;
+$color-wesphere: #9A8C98;
+$color-thread: #4A4E69;
+$color-knot: #22223B;
+$color-threadplex: #3A0CA3;
+
+// ============================================
+// WORLD STATE COLORS
+// ============================================
+$color-cosphere: #06D6A0;  // Bright green - permeable
+$color-memegrid: #EF476F;  // Hot pink - sealed
+
+// ============================================
+// SIML COLORS
+// ============================================
+$color-siml-object: #264653;
+$color-siml-relation: #2A9D8F;
+$color-siml-verb: #E9C46A;
+$color-siml-coord: #F4A261;
+
+// ============================================
+// THEME COLORS (Light Mode Defaults)
+// ============================================
+$color-bg-primary: #FFFFFF;
+$color-bg-secondary: #F8F9FA;
+$color-bg-tertiary: #E9ECEF;
+
+$color-text-primary: #212529;
+$color-text-secondary: #495057;
+$color-text-muted: #6C757D;
+
+$color-border: #DEE2E6;
+$color-border-light: #E9ECEF;
+
+$color-link: #2563EB;
+$color-link-hover: #1D4ED8;
+
+$color-accent: $color-aether;
+$color-success: $color-cosphere;
+$color-warning: #F59E0B;
+$color-danger: $color-memegrid;
+
+// ============================================
+// SHADOWS
+// ============================================
+$shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.05);
+$shadow-md: 0 4px 6px rgba(0, 0, 0, 0.07);
+$shadow-lg: 0 10px 15px rgba(0, 0, 0, 0.1);
+
+// ============================================
+// TRANSITIONS
+// ============================================
+$transition-fast: 150ms ease;
+$transition-base: 250ms ease;
+$transition-slow: 350ms ease;
+
+// ============================================
+// Z-INDEX
+// ============================================
+$z-dropdown: 100;
+$z-sticky: 200;
+$z-fixed: 300;
+$z-modal-backdrop: 400;
+$z-modal: 500;

@@ -1,0 +1,77 @@
+- id: object-i
+  glyph: "I"
+  name: "I"
+  description: "Individual agent, self-aware pattern. The locus of experience and decision."
+  color: "#264653"
+
+- id: object-you
+  glyph: "You"
+  name: "You"
+  description: "Second-person agent, relational other. The one addressed, acknowledged."
+  color: "#264653"
+
+- id: object-we
+  glyph: "We"
+  name: "We"
+  description: "Collective agent, emergent group self. More than sum of parts."
+  color: "#264653"
+
+- id: object-it
+  glyph: "It"
+  name: "It"
+  description: "Object, non-agent element. That which is acted upon or observed."
+  color: "#264653"
+
+- id: object-thread
+  glyph: "Thread"
+  name: "Thread"
+  description: "Narrative structure, coherent meaning-line. Story that organizes experience."
+  color: "#264653"
+
+- id: object-world
+  glyph: "World"
+  name: "World"
+  description: "Contextual container, ambient field. The background that makes foreground possible."
+  color: "#264653"
+
+- id: object-pattern
+  glyph: "Pattern"
+  name: "Pattern"
+  description: "Recognizable regularity, emergent form. That which repeats and can be named."
+  color: "#264653"
+
+- id: object-boundary
+  glyph: "Boundary"
+  name: "Boundary"
+  description: "Distinction-line, inside/outside maker. Membrane or wall."
+  color: "#264653"
+
+- id: object-field
+  glyph: "Field"
+  name: "Field"
+  description: "Ambient influence, non-local effect. The space patterns move through."
+  color: "#264653"
+
+- id: object-daemon
+  glyph: "Daemon"
+  name: "Daemon"
+  description: "Elemental intelligence, process-spirit. The personality of a dynamic."
+  color: "#264653"
+
+- id: object-habitat
+  glyph: "Habitat"
+  name: "Habitat"
+  description: "Structural container, coordination space. Where patterns live and interact."
+  color: "#264653"
+
+- id: object-meme
+  glyph: "Meme"
+  name: "Meme"
+  description: "Replicating idea-pattern, cultural unit. Information that propagates."
+  color: "#264653"
+
+- id: object-self
+  glyph: "Self"
+  name: "Self"
+  description: "Emergent identity, coordinated pattern-set. Not thing but process."
+  color: "#264653"

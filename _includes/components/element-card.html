@@ -1,0 +1,19 @@
+{% comment %}
+Element Card Component
+Usage: {% include components/element-card.html element=element %}
+Expects element object from site.data.elements
+{% endcomment %}
+
+<a href="{{ '/docs/elements/' | append: include.element.id | append: '/' | relative_url }}" class="element-card element-card--{{ include.element.id }}" style="text-decoration: none;">
+  <div class="element-card__header">
+    <span class="element-card__glyph">{{ include.element.glyph }}</span>
+    <h3 class="element-card__name">{{ include.element.name }}</h3>
+    <p class="element-card__daemon">{{ include.element.daemon }}</p>
+  </div>
+  <div class="element-card__body">
+    <p><strong>Operator:</strong> {{ include.element.operator }}</p>
+    <p><strong>Dimension:</strong> {{ include.element.dimension }}</p>
+    <p><strong>Agency:</strong> {{ include.element.agency }}</p>
+    <p>{{ include.element.description }}</p>
+  </div>
+</a>

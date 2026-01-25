@@ -1,0 +1,33 @@
+---
+layout: default
+sidebar: true
+---
+
+{% if page.header_image or page.glyph %}
+{% include page-header.html %}
+{% endif %}
+
+<article class="docs">
+  {% unless page.header_image or page.glyph %}
+  <h1>{{ page.title }}</h1>
+  {% endunless %}
+
+  {% if page.description %}
+  <p class="docs-description text-large text-muted">{{ page.description }}</p>
+  {% endif %}
+
+  <div class="docs-content">
+    {{ content }}
+  </div>
+
+  {% if page.see_also %}
+  <section class="see-also mt-4">
+    <h2>See Also</h2>
+    <ul>
+      {% for item in page.see_also %}
+      <li><a href="{{ item.url | relative_url }}">{{ item.title }}</a></li>
+      {% endfor %}
+    </ul>
+  </section>
+  {% endif %}
+</article>

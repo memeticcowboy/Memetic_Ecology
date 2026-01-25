@@ -1,0 +1,24 @@
+<header class="site-header">
+  <div class="site-header__wrapper">
+    <a href="{{ '/' | relative_url }}" class="site-header__brand">
+      <span class="glyph glyph--aether">✶</span> Memetic Ecology
+    </a>
+
+    <nav class="site-header__nav">
+      <a href="{{ '/docs/' | relative_url }}" class="nav-link {% if page.url contains '/docs/' %}nav-link--active{% endif %}">
+        Documentation
+      </a>
+      <a href="{{ '/blog/' | relative_url }}" class="nav-link {% if page.url contains '/blog/' %}nav-link--active{% endif %}">
+        Blog
+      </a>
+      <a href="{{ '/docs/reference/glossary/' | relative_url }}" class="nav-link">
+        Glossary
+      </a>
+
+      <!-- Theme toggle -->
+      <button id="theme-toggle" class="nav-link" aria-label="Toggle dark mode">
+        <span id="theme-icon">🌙</span>
+      </button>
+    </nav>
+  </div>
+</header>

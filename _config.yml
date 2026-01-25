@@ -1,0 +1,59 @@
+# Site Settings
+title: "Memetic Ecology"
+description: "A framework for understanding consciousness as recursive pattern-recognition"
+url: "https://memeticcowboy.github.io"
+baseurl: ""
+author: "Daniel"
+
+# Build Settings
+markdown: kramdown
+highlighter: rouge
+permalink: /blog/:year/:month/:day/:title/
+
+# Kramdown settings
+kramdown:
+  input: GFM
+  hard_wrap: false
+  syntax_highlighter: rouge
+
+# Sass settings
+sass:
+  style: compressed
+  sass_dir: _sass
+
+# Collections
+collections:
+  docs:
+    output: true
+    permalink: /:collection/:path/
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+  - scope:
+      path: "docs"
+      type: "pages"
+    values:
+      layout: "docs"
+
+# Pagination (if using jekyll-paginate)
+paginate: 10
+paginate_path: "/blog/page:num/"
+
+# Plugins (GitHub Pages compatible only)
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+# Exclude from build
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+  - README.md

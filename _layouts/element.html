@@ -1,0 +1,68 @@
+---
+layout: default
+sidebar: true
+---
+
+{% assign element = site.data.elements | where: "id", page.element_id | first %}
+
+{% include page-header.html %}
+
+<article class="element-detail">
+  <div class="element-detail__intro">
+    {% include components/definition-box.html
+       term=element.name
+       glyph=element.glyph
+       type="element"
+       content=element.description %}
+  </div>
+
+  <section class="element-detail__section">
+    <h2>Operator Mapping</h2>
+    <table class="data-table">
+      <tr><th>Property</th><th>Value</th></tr>
+      <tr><td>Operator</td><td>{{ element.operator }}</td></tr>
+      <tr><td>Dimension</td><td>{{ element.dimension }}</td></tr>
+      <tr><td>Agency Mode</td><td>{{ element.agency }}</td></tr>
+      <tr><td>Phonetic Key</td><td>{{ element.phonetic }}</td></tr>
+    </table>
+  </section>
+
+  <section class="element-detail__section">
+    <h2>Verbs (Process Layer)</h2>
+    <blockquote class="verb-list">
+      It <strong>{{ element.verbs | join: '</strong>, <strong>' }}</strong>
+    </blockquote>
+  </section>
+
+  <section class="element-detail__section">
+    <h2>Ratio Dynamics</h2>
+    {% include components/equation-block.html
+       name="Balance Ratio"
+       formula=element.ratio %}
+  </section>
+
+  <section class="element-detail__section">
+    <h2>Behavioral Modes</h2>
+
+    <h3>Lumeme Mode (Healthy)</h3>
+    {% include components/success-box.html
+       title="Healthy Expression"
+       content=element.lumeme_mode %}
+
+    <h3>Usurpene Mode (Captured)</h3>
+    {% include components/warning-box.html
+       title="Captured Expression"
+       content=element.usurpene_mode %}
+  </section>
+
+  <section class="element-detail__section">
+    <h2>Diagnostic</h2>
+    {% include components/diagnostic.html
+       question=element.diagnostic
+       context=element.name %}
+  </section>
+
+  <div class="element-detail__extended">
+    {{ content }}
+  </div>
+</article>

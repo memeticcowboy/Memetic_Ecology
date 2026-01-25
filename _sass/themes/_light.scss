@@ -1,0 +1,18 @@
+// ============================================
+// LIGHT THEME
+// ============================================
+// Default theme (already defined in _variables.scss)
+// This file exists for potential future theme switching
+
+body.theme-light {
+  --color-bg-primary: #{$color-bg-primary};
+  --color-bg-secondary: #{$color-bg-secondary};
+  --color-bg-tertiary: #{$color-bg-tertiary};
+
+  --color-text-primary: #{$color-text-primary};
+  --color-text-secondary: #{$color-text-secondary};
+  --color-text-muted: #{$color-text-muted};
+
+  --color-border: #{$color-border};
+  --color-border-light: #{$color-border-light};
+}

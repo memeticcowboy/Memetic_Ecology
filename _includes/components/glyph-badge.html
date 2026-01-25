@@ -1,0 +1,6 @@
+{% comment %}
+Glyph Badge Component
+Usage: {% include components/glyph-badge.html glyph="∴" type="air" %}
+{% endcomment %}
+
+<span class="glyph glyph--{{ include.type | default: 'element' }}">{{ include.glyph }}</span>

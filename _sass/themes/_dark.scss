@@ -1,0 +1,43 @@
+// ============================================
+// DARK THEME (Optional)
+// ============================================
+
+body.theme-dark {
+  --color-bg-primary: #1a1a1a;
+  --color-bg-secondary: #2d2d2d;
+  --color-bg-tertiary: #3a3a3a;
+
+  --color-text-primary: #e0e0e0;
+  --color-text-secondary: #b0b0b0;
+  --color-text-muted: #888888;
+
+  --color-border: #404040;
+  --color-border-light: #333333;
+
+  background-color: var(--color-bg-primary);
+  color: var(--color-text-primary);
+
+  .site-header {
+    background-color: var(--color-bg-primary);
+    border-bottom-color: var(--color-border);
+  }
+
+  .page-header {
+    background-color: var(--color-bg-secondary);
+  }
+
+  .definition-box,
+  .equation-block,
+  pre,
+  code {
+    background-color: var(--color-bg-secondary);
+  }
+
+  table th {
+    background-color: var(--color-bg-tertiary);
+  }
+
+  table tr:hover {
+    background-color: var(--color-bg-secondary);
+  }
+}

@@ -1,0 +1,13 @@
+{% comment %}
+Equation Block Component
+Usage: {% include components/equation-block.html name="Balance Ratio" formula="\frac{Signal}{Noise} \to 1" %}
+{% endcomment %}
+
+<div class="equation-block">
+  {% if include.name %}
+  <span class="equation-block__name">{{ include.name }}</span>
+  {% endif %}
+  <div class="equation-block__formula">
+    $$ {{ include.formula }} $$
+  </div>
+</div>

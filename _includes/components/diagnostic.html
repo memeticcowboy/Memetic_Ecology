@@ -1,0 +1,15 @@
+{% comment %}
+Diagnostic Question Box
+Usage: {% include components/diagnostic.html question="Does this distinction expand choice?" context="Air" %}
+{% endcomment %}
+
+<div class="diagnostic">
+  <div>
+    <span class="diagnostic__icon">🔍</span>
+    <span class="diagnostic__label">Diagnostic Question</span>
+  </div>
+  <p class="diagnostic__question">{{ include.question }}</p>
+  {% if include.context %}
+  <p class="diagnostic__context">Context: {{ include.context }}</p>
+  {% endif %}
+</div>

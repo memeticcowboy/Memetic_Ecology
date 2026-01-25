@@ -1,0 +1,373 @@
+// ============================================
+// PAGE HEADER WITH OPTIONAL IMAGE
+// ============================================
+
+.page-header {
+  position: relative;
+  padding: $spacing-3xl $spacing-lg;
+  background-color: $color-bg-secondary;
+  margin-bottom: $spacing-xl;
+  border-radius: $border-radius-lg;
+  overflow: hidden;
+  min-height: $page-header-height;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+
+  &--with-image {
+    background-size: cover;
+    background-position: center;
+    color: white;
+
+    .page-header__title,
+    .page-header__subtitle {
+      color: white;
+      text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+    }
+  }
+
+  &__overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(
+      135deg,
+      rgba($color-aether, 0.8) 0%,
+      rgba($color-omega, 0.6) 100%
+    );
+
+    .page-header--with-image & {
+      background: linear-gradient(
+        135deg,
+        rgba(0, 0, 0, 0.5) 0%,
+        rgba(0, 0, 0, 0.7) 100%
+      );
+    }
+  }
+
+  &__content {
+    position: relative;
+    z-index: 1;
+    max-width: $content-max-width;
+  }
+
+  &__glyph {
+    display: block;
+    font-size: $font-size-4xl;
+    margin-bottom: $spacing-sm;
+    font-family: $font-family-math, $font-family-base;
+  }
+
+  &__title {
+    font-size: $font-size-3xl;
+    font-weight: 700;
+    margin: 0 0 $spacing-sm;
+    line-height: $line-height-heading;
+
+    @media (min-width: 768px) {
+      font-size: $font-size-4xl;
+    }
+  }
+
+  &__subtitle {
+    font-size: $font-size-lg;
+    margin: 0;
+    opacity: 0.9;
+  }
+
+  &__badge {
+    display: inline-block;
+    padding: $spacing-xs $spacing-sm;
+    border-radius: $border-radius-sm;
+    font-size: $font-size-sm;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    margin-top: $spacing-md;
+
+    &--element { background-color: $color-aether; color: white; }
+    &--operator { background-color: $color-psi; color: white; }
+    &--habitat { background-color: $color-mystream; color: $color-text-primary; }
+    &--siml { background-color: $color-siml-object; color: white; }
+  }
+}
+
+// ============================================
+// DEFINITION BOX
+// ============================================
+
+.definition-box {
+  border-left: 4px solid $color-accent;
+  padding: $spacing-md $spacing-lg;
+  margin: $spacing-lg 0;
+  background: $color-bg-secondary;
+  border-radius: 0 $border-radius-md $border-radius-md 0;
+
+  &__header {
+    display: flex;
+    align-items: center;
+    gap: $spacing-sm;
+    margin-bottom: $spacing-sm;
+  }
+
+  &__glyph {
+    font-size: $font-size-xl;
+    font-family: $font-family-math;
+    padding: $spacing-xs $spacing-sm;
+    background: rgba($color-accent, 0.1);
+    border-radius: $border-radius-sm;
+  }
+
+  &__term {
+    font-size: $font-size-lg;
+    font-weight: 700;
+    margin: 0;
+  }
+
+  &__content {
+    margin: 0;
+    color: $color-text-secondary;
+  }
+
+  &--element { border-color: $color-aether; }
+  &--operator { border-color: $color-psi; }
+  &--habitat { border-color: $color-mystream; }
+  &--siml { border-color: $color-siml-object; }
+}
+
+// ============================================
+// EQUATION BLOCK
+// ============================================
+
+.equation-block {
+  background: $color-bg-secondary;
+  border: 1px solid $color-border;
+  border-radius: $border-radius-md;
+  padding: $spacing-lg;
+  margin: $spacing-lg 0;
+  text-align: center;
+
+  &__name {
+    display: block;
+    font-weight: 600;
+    color: $color-text-secondary;
+    margin-bottom: $spacing-sm;
+    font-size: $font-size-sm;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+  }
+
+  &__formula {
+    font-family: $font-family-math;
+    font-size: $font-size-xl;
+  }
+}
+
+// ============================================
+// GLYPH BADGES
+// ============================================
+
+.glyph {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-family: $font-family-math, 'Noto Sans Symbols 2', $font-family-base;
+  font-size: 1.2em;
+  padding: 0.1em 0.4em;
+  border-radius: $border-radius-sm;
+  font-weight: normal;
+
+  &--element { background: rgba($color-aether, 0.15); color: $color-aether; }
+  &--operator { background: rgba($color-psi, 0.15); color: $color-psi; }
+  &--habitat { background: rgba($color-mystream, 0.3); color: $color-knot; }
+  &--world { background: rgba($color-cosphere, 0.15); color: darken($color-cosphere, 20%); }
+
+  &--air { background: rgba($color-air, 0.15); color: darken($color-air, 15%); }
+  &--water { background: rgba($color-water, 0.15); color: darken($color-water, 15%); }
+  &--fire { background: rgba($color-fire, 0.15); color: darken($color-fire, 10%); }
+  &--wood { background: rgba($color-wood, 0.15); color: darken($color-wood, 25%); }
+  &--earth { background: rgba($color-earth, 0.15); color: darken($color-earth, 15%); }
+  &--metal { background: rgba($color-metal, 0.2); color: darken($color-metal, 30%); }
+  &--aether { background: rgba($color-aether, 0.15); color: $color-aether; }
+}
+
+// ============================================
+// DIAGNOSTIC QUESTION BOX
+// ============================================
+
+.diagnostic {
+  background: linear-gradient(135deg, rgba($color-psi, 0.05), rgba($color-aether, 0.05));
+  border: 1px solid rgba($color-psi, 0.2);
+  border-radius: $border-radius-md;
+  padding: $spacing-md $spacing-lg;
+  margin: $spacing-lg 0;
+
+  &__icon {
+    font-size: $font-size-lg;
+    margin-right: $spacing-xs;
+  }
+
+  &__label {
+    font-weight: 600;
+    color: $color-psi;
+    text-transform: uppercase;
+    font-size: $font-size-sm;
+    letter-spacing: 0.05em;
+  }
+
+  &__question {
+    font-size: $font-size-lg;
+    font-weight: 500;
+    margin: $spacing-sm 0 0;
+    font-style: italic;
+  }
+
+  &__context {
+    font-size: $font-size-sm;
+    color: $color-text-muted;
+    margin-top: $spacing-xs;
+  }
+}
+
+// ============================================
+// WARNING & SUCCESS BOXES
+// ============================================
+
+.callout {
+  padding: $spacing-md $spacing-lg;
+  border-radius: $border-radius-md;
+  margin: $spacing-lg 0;
+  border-left: 4px solid;
+
+  &--warning {
+    background: rgba($color-memegrid, 0.08);
+    border-color: $color-memegrid;
+
+    .callout__title { color: $color-memegrid; }
+  }
+
+  &--success {
+    background: rgba($color-cosphere, 0.08);
+    border-color: $color-cosphere;
+
+    .callout__title { color: darken($color-cosphere, 15%); }
+  }
+
+  &--info {
+    background: rgba($color-psi, 0.08);
+    border-color: $color-psi;
+
+    .callout__title { color: $color-psi; }
+  }
+
+  &__title {
+    font-weight: 600;
+    margin-bottom: $spacing-xs;
+  }
+
+  &__content {
+    margin: 0;
+  }
+}
+
+// ============================================
+// ELEMENT CARD
+// ============================================
+
+.element-card {
+  border: 2px solid $color-border;
+  border-radius: $border-radius-lg;
+  overflow: hidden;
+  transition: transform $transition-base, box-shadow $transition-base;
+
+  &:hover {
+    transform: translateY(-2px);
+    box-shadow: $shadow-lg;
+  }
+
+  &__header {
+    padding: $spacing-md $spacing-lg;
+    color: white;
+    text-align: center;
+  }
+
+  &__glyph {
+    font-size: $font-size-3xl;
+    font-family: $font-family-math;
+    display: block;
+    margin-bottom: $spacing-xs;
+  }
+
+  &__name {
+    font-size: $font-size-xl;
+    font-weight: 700;
+    margin: 0;
+  }
+
+  &__daemon {
+    font-size: $font-size-sm;
+    opacity: 0.9;
+  }
+
+  &__body {
+    padding: $spacing-lg;
+
+    p {
+      margin: $spacing-xs 0;
+      font-size: $font-size-sm;
+
+      strong {
+        color: $color-text-primary;
+      }
+    }
+  }
+
+  &--air { .element-card__header { background: $color-air; } border-color: $color-air; }
+  &--water { .element-card__header { background: $color-water; } border-color: $color-water; }
+  &--fire { .element-card__header { background: $color-fire; } border-color: $color-fire; }
+  &--wood { .element-card__header { background: $color-wood; color: #333; } border-color: $color-wood; }
+  &--earth { .element-card__header { background: $color-earth; } border-color: $color-earth; }
+  &--metal { .element-card__header { background: $color-metal; color: #333; } border-color: $color-metal; }
+  &--aether { .element-card__header { background: $color-aether; } border-color: $color-aether; }
+}
+
+// ============================================
+// DATA TABLE
+// ============================================
+
+.data-table {
+  width: 100%;
+  margin: $spacing-lg 0;
+
+  th {
+    background-color: $color-bg-tertiary;
+    font-weight: 600;
+    text-align: left;
+  }
+
+  td {
+    vertical-align: top;
+  }
+
+  tr:hover {
+    background-color: $color-bg-secondary;
+  }
+}
+
+// ============================================
+// VERB LIST
+// ============================================
+
+.verb-list {
+  font-size: $font-size-lg;
+  padding: $spacing-lg;
+  background: linear-gradient(135deg, rgba($color-aether, 0.05), rgba($color-psi, 0.05));
+  border-left: 4px solid $color-aether;
+
+  strong {
+    color: $color-accent;
+  }
+}

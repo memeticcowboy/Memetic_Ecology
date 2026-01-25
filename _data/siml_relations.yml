@@ -1,0 +1,53 @@
+- id: relation-contains
+  symbol: "⊃"
+  name: "Contains"
+  description: "Holding relationship. A contains B means B exists within A's space."
+  example: "World ⊃ Thread"
+
+- id: relation-flows-to
+  symbol: "→"
+  name: "Flows To"
+  description: "Directional movement. A → B means influence flows from A to B."
+  example: "Pattern → Field"
+
+- id: relation-resonates-with
+  symbol: "≈"
+  name: "Resonates With"
+  description: "Mutual influence, sympathetic vibration. A ≈ B means they affect each other."
+  example: "I ≈ You"
+
+- id: relation-generates
+  symbol: "⟿"
+  name: "Generates"
+  description: "Creative production. A ⟿ B means A brings B into being."
+  example: "Thread ⟿ Pattern"
+
+- id: relation-composes
+  symbol: "∘"
+  name: "Composes"
+  description: "Functional combination. A ∘ B means A and B combine to create emergent function."
+  example: "Daemon ∘ Element"
+
+- id: relation-becomes
+  symbol: "⇒"
+  name: "Becomes"
+  description: "Transformation. A ⇒ B means A transforms into B."
+  example: "Meme ⇒ World"
+
+- id: relation-nourishes
+  symbol: "⟳"
+  name: "Nourishes"
+  description: "Sustaining relationship. A ⟳ B means A supports B's continued existence."
+  example: "Earth ⟳ Self"
+
+- id: relation-bounds
+  symbol: "⊢"
+  name: "Bounds"
+  description: "Limiting relationship. A ⊢ B means A defines edges for B."
+  example: "Boundary ⊢ Habitat"
+
+- id: relation-emerges-from
+  symbol: "⟰"
+  name: "Emerges From"
+  description: "Bottom-up arising. A ⟰ B means A arises from B without being reducible to it."
+  example: "We ⟰ {I, You}"

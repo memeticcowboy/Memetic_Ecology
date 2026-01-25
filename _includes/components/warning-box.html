@@ -1,0 +1,11 @@
+{% comment %}
+Warning Box (MemeGrid indicator)
+Usage: {% include components/warning-box.html title="Warning" content="This is sealed" %}
+{% endcomment %}
+
+<div class="callout callout--warning">
+  {% if include.title %}
+  <p class="callout__title">{{ include.title }}</p>
+  {% endif %}
+  <p class="callout__content">{{ include.content }}</p>
+</div>

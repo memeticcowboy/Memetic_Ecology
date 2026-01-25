@@ -1,0 +1,102 @@
+// ============================================
+// HEADINGS
+// ============================================
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: $font-family-heading;
+  line-height: $line-height-heading;
+  font-weight: 700;
+  margin-top: $spacing-xl;
+  margin-bottom: $spacing-md;
+  color: $color-text-primary;
+
+  &:first-child {
+    margin-top: 0;
+  }
+}
+
+h1 {
+  font-size: $font-size-3xl;
+  margin-top: $spacing-2xl;
+
+  @media (min-width: 768px) {
+    font-size: $font-size-4xl;
+  }
+}
+
+h2 {
+  font-size: $font-size-2xl;
+  margin-top: $spacing-xl;
+  padding-bottom: $spacing-xs;
+  border-bottom: 2px solid $color-border-light;
+}
+
+h3 {
+  font-size: $font-size-xl;
+}
+
+h4 {
+  font-size: $font-size-lg;
+}
+
+h5, h6 {
+  font-size: $font-size-base;
+}
+
+// ============================================
+// PARAGRAPHS
+// ============================================
+
+p {
+  margin: $spacing-md 0;
+
+  &:first-child {
+    margin-top: 0;
+  }
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+
+// ============================================
+// TEXT UTILITIES
+// ============================================
+
+.text-center {
+  text-align: center;
+}
+
+.text-muted {
+  color: $color-text-muted;
+}
+
+.text-small {
+  font-size: $font-size-sm;
+}
+
+.text-large {
+  font-size: $font-size-lg;
+}
+
+strong, b {
+  font-weight: 600;
+}
+
+em, i {
+  font-style: italic;
+}
+
+// ============================================
+// KATEX OVERRIDES
+// ============================================
+
+.katex {
+  font-size: 1.1em;
+}
+
+.katex-display {
+  margin: $spacing-lg 0;
+  overflow-x: auto;
+  overflow-y: hidden;
+}

@@ -1,0 +1,87 @@
+- id: i-tube
+  glyph: "Φ"
+  name: "I-Tube"
+  description: "Perceptual interface, individual distinction-making. How 'I' perceive and categorize experience."
+  dimension: "1D (Individual)"
+  color: "#F2E9E4"
+  diagnostic: "What distinctions am I making right now?"
+
+- id: my-stream
+  glyph: "∿"
+  name: "My-Stream"
+  description: "Personal narrative flow, individual sense-making. The ongoing story I tell about myself."
+  dimension: "2D (Personal)"
+  color: "#C9ADA7"
+  diagnostic: "What story am I living in?"
+
+- id: we-sphere
+  glyph: "╬"
+  name: "We-Sphere"
+  description: "Collective coordination, shared meaning-making. Where individual streams converge into group coherence."
+  dimension: "3D (Collective)"
+  color: "#9A8C98"
+  diagnostic: "How are we weaving this together?"
+
+- id: thread
+  glyph: "◎"
+  name: "Thread"
+  description: "Single narrative pathway, coherent meaning-line. Can be personal or shared."
+  dimension: "Linear Coherence"
+  color: "#4A4E69"
+  diagnostic: "What is the through-line?"
+
+- id: knot
+  glyph: "⤸·⤹"
+  name: "Knot"
+  description: "Decision point, intersection of threads. Where multiple paths meet and one must be chosen."
+  dimension: "Decision Node"
+  color: "#22223B"
+  diagnostic: "What is being decided here?"
+
+- id: threadplex
+  glyph: "◯"
+  name: "Threadplex"
+  description: "Woven coordination of multiple threads. Complex adaptive system maintaining coherence across diversity."
+  dimension: "Emergent Network"
+  color: "#3A0CA3"
+  diagnostic: "How is complexity being held?"
+
+- id: world-state-cosphere
+  glyph: "◙"
+  name: "Co-SPHERE"
+  description: "Permeable world-state where boundaries are explicit and negotiable. Refusal capacity is maintained."
+  dimension: "World Configuration"
+  type: "world-state"
+  color: "#06D6A0"
+  indicator: "Boundaries are membranes"
+  diagnostic: "Can I say no?"
+
+- id: world-state-memegrid
+  glyph: "🜛"
+  name: "MemeGrid"
+  description: "Sealed world-state where alternatives are foreclosed. Ideology masquerades as ground truth."
+  dimension: "World Configuration"
+  type: "world-state"
+  color: "#EF476F"
+  indicator: "Boundaries are cages"
+  diagnostic: "Is questioning allowed?"
+
+- id: world-state-threadweave
+  glyph: "▩"
+  name: "ThreadWeave"
+  description: "Active weaving state where multiple narratives coexist and negotiate. Constructedness is acknowledged."
+  dimension: "World Configuration"
+  type: "world-state"
+  color: "#9A8C98"
+  indicator: "Threads are visible"
+  diagnostic: "Do we remember we're weaving?"
+
+- id: world-state-knot-crisis
+  glyph: "⿻"
+  name: "Knot Crisis"
+  description: "Critical decision state where incompatible threads converge. Requires explicit choice-making."
+  dimension: "World Configuration"
+  type: "world-state"
+  color: "#FF6B6B"
+  indicator: "Decision is unavoidable"
+  diagnostic: "What must be chosen?"

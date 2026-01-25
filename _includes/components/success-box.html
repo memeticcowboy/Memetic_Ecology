@@ -1,0 +1,11 @@
+{% comment %}
+Success Box (Co-SPHERE indicator)
+Usage: {% include components/success-box.html title="Success" content="This is permeable" %}
+{% endcomment %}
+
+<div class="callout callout--success">
+  {% if include.title %}
+  <p class="callout__title">{{ include.title }}</p>
+  {% endif %}
+  <p class="callout__content">{{ include.content }}</p>
+</div>

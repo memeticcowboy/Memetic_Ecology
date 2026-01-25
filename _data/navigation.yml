@@ -1,0 +1,123 @@
+- title: "Getting Started"
+  items:
+    - title: "Introduction"
+      url: /docs/
+    - title: "Quick Start"
+      url: /docs/quick-start/
+
+- title: "Core Concepts"
+  items:
+    - title: "Elements"
+      url: /docs/elements/
+      glyph: "✶"
+      type: "element"
+      subitems:
+        - title: "Air"
+          url: /docs/elements/air/
+          glyph: "∴"
+          type: "air"
+        - title: "Water"
+          url: /docs/elements/water/
+          glyph: "≈"
+          type: "water"
+        - title: "Fire"
+          url: /docs/elements/fire/
+          glyph: "▲"
+          type: "fire"
+        - title: "Wood"
+          url: /docs/elements/wood/
+          glyph: "𐂷"
+          type: "wood"
+        - title: "Earth"
+          url: /docs/elements/earth/
+          glyph: "☷"
+          type: "earth"
+        - title: "Metal"
+          url: /docs/elements/metal/
+          glyph: "⛨"
+          type: "metal"
+        - title: "Aether"
+          url: /docs/elements/aether/
+          glyph: "✶"
+          type: "aether"
+
+    - title: "Operators"
+      url: /docs/operators/
+      glyph: "Ψ"
+      type: "operator"
+      subitems:
+        - title: "Omega (Ω)"
+          url: /docs/operators/omega/
+          glyph: "Ω"
+          type: "operator"
+        - title: "Chi (χ)"
+          url: /docs/operators/chi/
+          glyph: "χ"
+          type: "operator"
+        - title: "Q (Relational)"
+          url: /docs/operators/q/
+          glyph: "Q"
+          type: "operator"
+        - title: "Psi (Ψ)"
+          url: /docs/operators/psi/
+          glyph: "Ψ"
+          type: "operator"
+        - title: "Z (Harmonic)"
+          url: /docs/operators/z/
+          glyph: "Z"
+          type: "operator"
+
+    - title: "Habitats"
+      url: /docs/habitats/
+      glyph: "◯"
+      type: "habitat"
+      subitems:
+        - title: "I-Tube"
+          url: /docs/habitats/i-tube/
+          glyph: "Φ"
+          type: "habitat"
+        - title: "My-Stream"
+          url: /docs/habitats/my-stream/
+          glyph: "∿"
+          type: "habitat"
+        - title: "We-Sphere"
+          url: /docs/habitats/we-sphere/
+          glyph: "╬"
+          type: "habitat"
+        - title: "Thread"
+          url: /docs/habitats/thread/
+          glyph: "◎"
+          type: "habitat"
+        - title: "Knot"
+          url: /docs/habitats/knot/
+          glyph: "⤸·⤹"
+          type: "habitat"
+        - title: "Threadplex"
+          url: /docs/habitats/threadplex/
+          glyph: "◯"
+          type: "habitat"
+        - title: "World States"
+          url: /docs/habitats/world-states/
+          type: "habitat"
+
+- title: "SIML Language"
+  items:
+    - title: "SIML Overview"
+      url: /docs/siml/
+    - title: "Objects"
+      url: /docs/siml/objects/
+    - title: "Relations"
+      url: /docs/siml/relations/
+    - title: "Verbs"
+      url: /docs/siml/verbs/
+    - title: "Examples"
+      url: /docs/siml/examples/
+
+- title: "Reference"
+  items:
+    - title: "Glossary"
+      url: /docs/reference/glossary/
+    - title: "Equations"
+      url: /docs/reference/equations/
+    - title: "Glyphs"
+      url: /docs/reference/glyphs/

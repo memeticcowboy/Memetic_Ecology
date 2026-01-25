@@ -1,0 +1,30 @@
+{% comment %}
+Page Header Component
+Usage in frontmatter:
+  header_image: /assets/images/headers/elements.jpg
+  header_title: "Custom Title"  # optional, defaults to page.title
+  header_subtitle: "Subtitle"   # optional
+{% endcomment %}
+
+{% assign header_title = page.header_title | default: page.title %}
+{% assign header_image = page.header_image %}
+{% assign header_subtitle = page.header_subtitle %}
+
+<div class="page-header{% if header_image %} page-header--with-image{% endif %}"
+     {% if header_image %}style="background-image: url('{{ header_image | relative_url }}');"{% endif %}>
+  <div class="page-header__overlay"></div>
+  <div class="page-header__content">
+    {% if page.glyph %}
+    <span class="page-header__glyph">{{ page.glyph }}</span>
+    {% endif %}
+    <h1 class="page-header__title">{{ header_title }}</h1>
+    {% if header_subtitle %}
+    <p class="page-header__subtitle">{{ header_subtitle }}</p>
+    {% endif %}
+    {% if page.category_badge %}
+    <span class="page-header__badge page-header__badge--{{ page.category_badge }}">
+      {{ page.category_badge | capitalize }}
+    </span>
+    {% endif %}
+  </div>
+</div>
