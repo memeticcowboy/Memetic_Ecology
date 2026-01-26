@@ -15,12 +15,12 @@
 
 // Fix homepage padding
 body {
-  padding: 0 2rem;
+  padding: 0 $page-horizontal-padding;
 }
 
 .main-content,
 main {
   max-width: 900px;
   margin: 0 auto;
-  padding: 2rem;
+  padding: 2rem $page-horizontal-padding;
 }

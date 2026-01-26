@@ -7,7 +7,7 @@
   min-height: calc(100vh - #{$header-height} - 100px);
   max-width: 1400px;
   margin: 0 auto;
-  padding: $spacing-lg;
+  padding: $page-horizontal-padding;
 
   @media (max-width: 768px) {
     flex-direction: column;
@@ -19,11 +19,11 @@
 // MAIN CONTENT
 // ============================================
 
-.main-content {
+  .main-content {
   flex: 1;
   max-width: 900px;
   margin: 0 auto;
-  padding: 2rem;
+  padding: 2rem $page-horizontal-padding;
   width: 100%;
 
   .site-wrapper:has(.sidebar) & {
@@ -43,7 +43,7 @@
 .container {
   max-width: $content-max-width;
   margin: 0 auto;
-  padding: 0 $spacing-lg;
+  padding: 0 $page-horizontal-padding;
 
   @media (max-width: 768px) {
     padding: 0 $spacing-md;
@@ -53,7 +53,7 @@
 .container-wide {
   max-width: 1200px;
   margin: 0 auto;
-  padding: 0 $spacing-lg;
+  padding: 0 $page-horizontal-padding;
 }
 
 // ============================================
